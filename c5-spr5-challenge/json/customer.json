@@ -1,0 +1,54 @@
+{
+  "customers": [
+    {
+      "custID": "3",
+      "name": "json",
+      "custPasword": "963214587",
+      "custConfirmPassword": "963214578",
+      "email": "json@gmail.com",
+      "contact": "9876543210",
+      "address": "Guntur",
+      "id": 1
+    },
+    {
+      "custID": "2",
+      "name": "narendra",
+      "custPasword": "12345678",
+      "custConfirmPassword": "12345678",
+      "email": "narendra@gmail.com",
+      "contact": "9638527410",
+      "address": "hyderabad",
+      "id": 2
+    },
+    {
+      "custID": "5",
+      "name": "buddareddy ",
+      "custPasword": "1265545545525",
+      "custConfirmPassword": "51548566661265",
+      "email": "json@gmail.com",
+      "contact": "987654321",
+      "address": "guntur",
+      "id": 3
+    },
+    {
+      "custID": "4",
+      "name": "NIIT",
+      "custPasword": "niit@0001",
+      "custConfirmPassword": "niit@0001",
+      "email": "niit0001@gmail.com",
+      "contact": "8521479630",
+      "address": "hyderabad",
+      "id": 4
+    },
+    {
+      "custID": "9",
+      "name": "NIIT",
+      "custPasword": "niit@1234",
+      "custConfirmPassword": "niit@1234",
+      "email": "niit0001@gmail.com",
+      "contact": "9876543210",
+      "address": "hyderabad",
+      "id": 5
+    }
+  ]
+}

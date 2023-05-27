@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Details</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">View Menu</a>
+        <a href="customer.html">Customer Registration</a>
+        <a href="order.html">Place an Order</a>
+    </div>
+    
+    <!-- Write drop down list code here  -->
+   
+    <label for="category">Filter By category:</label>
+    <select name="category" id="category">
+        <option value="All">All</option>
+        <option value="Starters" onsubmit="">Starters</option>
+        <option value="Desserts">Desserts</option>
+        <option value="Beverages">Beverages</option>
+        <option value="Main Course">Main Course</option>
+    </select>
+    <table class="table" id="tableId">
+        <thead>
+            <tr>
+                <th scope="col">Item Name</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody id="tableData">
+
+        </tbody>
+    </table>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
